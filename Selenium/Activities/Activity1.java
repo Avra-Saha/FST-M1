@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
             // Open the page
             driver.get("https://www.training-support.net");
             // Print the title of the page
-            System.out.println("Home page Avra title: " + driver.getTitle());
+            System.out.println("Home page title: " + driver.getTitle());
 
             // Find About Us link using id and click it
             driver.findElement(By.id("about-link")).click();
